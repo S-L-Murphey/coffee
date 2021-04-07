@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+}
+
+header {
+    text-align: center;
+    background-color: tan;
+    padding: 25px;
+    font-size:100px;
+}
+
+.shop {
+    flex-basis: 32%; /* Make each child element the same width */
+    border: 1px dotted black;
+    padding: 1em;
+    margin: 0.5em;
+    text-align: center; /* Center align the text in the boxes */
+}
+
+.list {
+    display: flex; /* Display the child items in a Flex layout */
+    flex-wrap: wrap; /* Let the rows wrap if there are too many */
+    justify-content: space-around; /* Evenly space the child elements */
+}
+
+footer {
+    background:tan;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 30px;
+}
